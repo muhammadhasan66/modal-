@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, #70cd63, #25ab79);
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.modal-buttons {
+    border-radius: 50px;
+    border: none;
+    padding: 5px 20px;
+    margin-top: 40px;
+}
+.overlay {
+    background-color: black;
+
+}
+.modal {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 20px;
+    margin: 50px auto;
+    text-align: center;
+}
+.close {
+    position: absolute;    
+    right: 0;
+    top: 0;
+    margin: 10px; 
+}
+.hidden {
+    display: none;
+}
